@@ -28,16 +28,17 @@ End the program.
 Program to count the words in a file
 Reg No:212222110014
 Name:JAVITH M  
-fname=input("enter the file name:")
-num_words=0
+fname=input("Enter thr file name: ")
+num_words = 0
+
 with open(fname,'r') as f:
   for line in f:
-    words=line.split()
+    words = line.split()
     num_words+=len(words)
-print('Number of words:',num_words)
+print('Number of words: ',num_words)
 ```
 ### OUTPUT:
-![image](https://github.com/JavithMohamad/Word-count/assets/121215951/4b9bea73-846a-4274-a590-5e38463d6304)
+![image](https://github.com/JavithMohamad/Word-count/assets/121215951/d890e0d1-e21c-43eb-9709-868ac807b444)
 
 
 
